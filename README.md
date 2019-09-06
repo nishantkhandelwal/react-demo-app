@@ -1,3 +1,4 @@
+
 <h1 align="center">React Demo App</h1>
 <p>
   <img src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
@@ -17,7 +18,7 @@
 
 [![codecov](https://codecov.io/gh/mskhirwar/react-demo-app/branch/master/graph/badge.svg)](https://codecov.io/gh/mskhirwar/react-demo-app)
 
-> A React demo application to configure & run CI/CD pipeline
+> React demo application to configure & run CI/CD pipeline
 
 ### 🏠 [Homepage](https://github.com/mskhirwar/react-demo-app#readme)
 
