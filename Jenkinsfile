@@ -16,8 +16,10 @@ pipeline {
       }
     }
     stage('Hello Stage') {
-     echo 'Hello world'
-      sayHello 'Nishant ....'
+      steps {
+        echo 'Hello world'
+        sayHello 'Nishant ....'
+      }
     }
      stage('Install dependencies') {
       steps {
