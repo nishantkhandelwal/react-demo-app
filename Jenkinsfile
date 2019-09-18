@@ -1,3 +1,6 @@
+libraries {
+  lib('pipeline-library-demo')
+}
 pipeline {
   environment {
     registry = "nishant002/react-app-demo"
@@ -11,6 +14,10 @@ pipeline {
       steps {
         git 'https://github.com/nishantkhandelwal/react-demo-app.git'
       }
+    }
+    stage('Hello Stage') {
+     echo 'Hello world'
+      sayHello 'Nishant ....'
     }
      stage('Install dependencies') {
       steps {
